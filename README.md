@@ -5,6 +5,9 @@ npx nuxi@latest init my-app --no-install
 
 -----------------------------------------------------------
 ・useHead
+・/pages
+・NuxtPage
+
 
 ## 参考
 前回まで（vue）

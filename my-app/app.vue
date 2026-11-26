@@ -1,5 +1,7 @@
 <template>
   <div>
-    <h1>hoge</h1>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>

@@ -13,5 +13,8 @@ export default defineNuxtConfig({
         lang: 'ja'
       }
     }
-  }
+  },
+  css: [
+    '@/assets/style.css'
+  ]
 })

@@ -8,7 +8,8 @@ npx nuxi@latest init my-app --no-install
 ・/pages
 ・NuxtPage
 ・NuxtLink
-
+・NuxtLayout
+    ・slot
 
 
 ## 参考

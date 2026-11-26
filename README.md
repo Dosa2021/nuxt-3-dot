@@ -11,6 +11,8 @@ npx nuxi@latest init my-app --no-install
 ・NuxtLayout
     ・slot
 
+・ダイナミックルーティング
+
 
 ## 参考
 前回まで（vue）

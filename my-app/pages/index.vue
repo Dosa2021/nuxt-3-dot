@@ -1,36 +1,37 @@
 <script setup>
-const products = [
-  {
-    id: 0,
-    imgUrl: '/mei-miteki.webp',
-    name: '永野芽郁',
-    price: 20
-  },
-  {
-    id: 1,
-    imgUrl: '/mei-1.jpg',
-    name: '永野芽郁',
-    price: 21
-  },
-  {
-    id: 2,
-    imgUrl: '/mei-miteki.webp',
-    name: '永野芽郁',
-    price: 22
-  },
-  {
-    id: 3,
-    imgUrl: '/mei-miteki.webp',
-    name: '永野芽郁',
-    price: 23
-  },
-  {
-    id: 4,
-    imgUrl: '/mei-miteki.webp',
-    name: '永野芽郁',
-    price: 1000
-  }
-]
+// const products = [
+//   {
+//     id: 0,
+//     imgUrl: '/mei-miteki.webp',
+//     name: '永野芽郁',
+//     price: 20
+//   },
+//   {
+//     id: 1,
+//     imgUrl: '/mei-1.jpg',
+//     name: '永野芽郁',
+//     price: 21
+//   },
+//   {
+//     id: 2,
+//     imgUrl: '/mei-miteki.webp',
+//     name: '永野芽郁',
+//     price: 22
+//   },
+//   {
+//     id: 3,
+//     imgUrl: '/mei-miteki.webp',
+//     name: '永野芽郁',
+//     price: 23
+//   },
+//   {
+//     id: 4,
+//     imgUrl: '/mei-miteki.webp',
+//     name: '永野芽郁',
+//     price: 1000
+//   }
+// ]
+const products = useState('products');
 
 useHead({
     title: 'DTFNTR - 目黒のアンティーク家具専門店'

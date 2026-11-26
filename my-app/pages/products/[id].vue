@@ -1,19 +1,26 @@
 <script setup>
+const products = useState('products');
+const route = useRoute();
+const id = Number(route.params.id);
+const product = products.value.find((element) => {
+  return element.id === id;
+})
+
 useHead({
-    title: '永野芽郁 | DTFNTR - 目黒のアンティーク家具専門店'
+    title: product.name + '| DTFNTR - 目黒のアンティーク家具専門店'
 })
 </script>
 
 <template>
     <section class="product">
       <div class="desc">
-        <h2>すごい丸椅子</h2>
+        <h2>{{ product.name }}</h2>
         <p>すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。すごい丸椅子です。</p>
-        <p>12,000円 (税込)</p>
+        <p>{{ product.price }}</p>
         <button>購入する</button>
       </div>
       <div class="pic">
-        <img src="/mei-miteki.webp" alt="すごい丸椅子" width="400" height="400">
+        <img :src="product.imgUrl" alt="すごい丸椅子" width="400" height="400">
       </div>
     </section>
 </template>

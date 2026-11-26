@@ -7,6 +7,8 @@ npx nuxi@latest init my-app --no-install
 ・useHead
 ・/pages
 ・NuxtPage
+・NuxtLink
+
 
 
 ## 参考

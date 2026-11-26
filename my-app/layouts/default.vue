@@ -1,5 +1,17 @@
 <template>
-    <Header />
-    <slot />
-    <Footer />
+    <div class="container">
+        <Header />
+        <slot />
+        <Footer />
+    </div>
 </template>
+
+<style scoped>
+.container {
+    width: calc(100% - 64px);
+    margin: 0 auto;
+    max-width: 600px;
+    box-sizing: border-box;
+    padding: 32px 0;
+}
+</style>

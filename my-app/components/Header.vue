@@ -1,5 +1,7 @@
 <template>
     <header>
-        <h1>My Site</h1>
+        <h1>
+            <NuxtLink to="/">DTFNTR</NuxtLink>
+        </h1>
     </header>
 </template>

@@ -1,9 +1,6 @@
 <script setup>
 useHead({
-    title: 'Index Page',
-    link: [
-        {rel: 'icon', href: '/mei-miteki.webp'}
-    ]
+    title: 'Index Page'
 })
 </script>
 
